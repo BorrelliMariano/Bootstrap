@@ -1,14 +1,29 @@
 
 
 body { background-color: rgb(219, 219, 219)}
-.menu { background-color: aquamarine;}
+.menu {  
+    font-size: 30px;
+    background-color: aquamarine;}
 
 .carousel { 
-        margin-left: 350px;
+        margin-left: 370px;
         text-align: center;
-        width: 500px;
-        height: 500px;               }
+        width: 450px;
+        height: 450px; }
+/*  INDEX CSS */
 
+.texto-index { 
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* PRIMERA VICTORIA*/
+.texto-pv { font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+
+.cursiva {font-weight: bold;}
+
+
+.montreal { float: left;}
 /* FOOTER */
 .footer {
     background-color: rgb(0, 0, 0);
