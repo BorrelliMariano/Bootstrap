@@ -2,30 +2,18 @@
 
 /*  INDEX MOBILE  */
 
-@media screen and ( min-width: 480px;)
-{
-.slide-index { text-align: center;}
-
-}
-
 /* MONTREAL MOBILE  */
+
 
 /* TRAYECTORIA MOBILE */
 
-@media screen and ( max-widt 480px) {
-    .mclaren-tr { 
-        display: flex; 
-        flex-direction: column;
-        width: 400px;
-        height: 450px;}
-} 
     
 
 
     
 
 
-
+/* FIN MOBILE FIRST*/
 
 body { background-color: rgb(219, 219, 219)}
 .menu {  
@@ -53,10 +41,6 @@ body { background-color: rgb(219, 219, 219)}
 
 /* PRIMERA VICTORIA*/
 
-
-.slide-index { 
-    margin-left: 360px;
-    width: 550px;}
 .texto-pv { font-family:Verdana, Geneva, Tahoma, sans-serif;}
 
 
