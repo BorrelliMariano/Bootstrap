@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*  CONTENIDO  */
+body {
+  background-color: #7a0c0c; }
+
+.menu {
+  font-size: 30px;
+  background-color: aquamarine; }
+
+.animation {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: anim 4s infinite; }
+
+@keyframes anim {
+  from {
+    width: 0; } }
+
+.carousel {
+  margin-left: 370px;
+  text-align: center;
+  width: 450px;
+  height: 450px; }
+
+/*  INDEX CSS */
+.texto-index {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/* PRIMERA VICTORIA*/
+.texto-pv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.cursiva {
+  font-weight: bold; }
+
+.montreal {
+  float: left; }
+
+/* EDICION Trayectoria */
+.compañero {
+  display: flex;
+  align-content: center; }
+
+.china {
+  display: flex; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* FOOTER */
+.footer {
+  background-color: black;
+  text-align: center;
+  margin-top: 20px;
+  position: static; }
+
+.footer div {
+  margin: 20px;
+  align-items: center; }
+
+.footer div a {
+  text-decoration: none; }
+
+.footer div a img {
+  width: 40px;
+  border-radius: 40px;
+  margin: 5px; }
+
+/* FIN FOOTER*/
