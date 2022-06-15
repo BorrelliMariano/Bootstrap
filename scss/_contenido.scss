@@ -4,7 +4,7 @@ $BodySecundario: rgb(122, 12, 12);
 
 /*  CONTENIDO  */
 
-body { background-color: $BodySecundario; }
+body { background-color: $BodyPrincipal; }
 .menu {  
     font-size: 30px;
     background-color: aquamarine;}
@@ -45,3 +45,24 @@ body { background-color: $BodySecundario; }
 align-content: center;}
 
 .china { display: flex;}
+
+
+
+/*MAP GET*/
+$tituloPagina: #dbdbdb;
+
+
+$tituloPagina: (
+    parrafo: yellow,
+    centro: center,
+    borde: 3px solid,
+    colorPrincipal: brown,
+    margen: 20px,
+);
+.titulo {
+    background-color: map-get($tituloPagina,parrafo );
+    text-align: map-get($tituloPagina, centro);
+    border: map-get($tituloPagina, borde);
+    color: map-get($tituloPagina, colorPrincipal);
+    margin-top: map-get($tituloPagina, margen);
+}

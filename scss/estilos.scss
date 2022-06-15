@@ -1,3 +1,13 @@
 @import 'contenido'; 
 @import 'base';
 @import 'footer';
+@import 'mixing';
+@import 'backgrounds';
+
+@function backgrounds ($background-colors) {
+    @return map-get($color, $background-colors);
+}
+
+body{
+    background-color: $BodyPrincipal;
+}

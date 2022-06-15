@@ -1,0 +1,9 @@
+@import 'backgrounds';
+
+@mixin backgrounds-colors {
+
+    @media (min-width:#{escritorio}){
+        @content;
+
+    }   
+} 
