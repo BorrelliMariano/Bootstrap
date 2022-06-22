@@ -2,6 +2,49 @@ $BodyPrincipal: #dbdbdb;
 $BodySecundario: rgb(122, 12, 12);
 
 
+/*-----------------------MEDIAS-----------------------*/
+                 /* index */
+
+                 @media screen and ( max-width: 600px){
+      
+                    #carouselExampleCaptions{ margin: 0px; }
+              
+                    }
+
+
+                /* Primera Victoria  */
+
+                @media  screen and ( max-width: 600px )  {
+
+                    .texto-montreal{
+                        display: flex;
+                       align-content: center;
+
+                    }
+                }
+                /*  TRAYECTORIA */
+
+                @media screen and (max-width:600px ) {
+
+                    .compañero{ 
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .mclaren-tr{ width: 85%; }
+                    
+                    .china{ 
+                        display: flex;
+                        flex-direction: column;
+                     }
+                    
+                    .enganchado {
+                        width: 95%;
+                    }
+                }
+                  /*-----------------------MEDIAS-----------------------*/
+              
+
 /*  CONTENIDO  */
 
 body { background-color: $BodyPrincipal; }
@@ -17,12 +60,14 @@ body { background-color: $BodyPrincipal; }
 @keyframes anim { from {width: 0;}
     
 }
-.carousel { 
-        margin-left: 370px;
-        text-align: center;
-        width: 450px;
-        height: 450px; }
+
+.slide-index { 
+    margin-left: 360px;
+    height: 450px;
+    width: 450px;
+}
 /*  INDEX CSS */
+
 
 .texto-index { 
     text-align: justify;
@@ -49,6 +94,19 @@ align-content: center;}
 
 
 /*MAP GET*/
+$textoprincipal: #dbdbdb;
+
+$textoprincipal: (
+
+    parrafo:aquamarine,
+    centrar: center,
+    marco: 0px solid,
+    colortexto:black,
+    marg:20px
+);
+
+
+
 $tituloPagina: #dbdbdb;
 
 
@@ -60,9 +118,9 @@ $tituloPagina: (
     margen: 20px,
 );
 .titulo {
-    background-color: map-get($tituloPagina,parrafo );
-    text-align: map-get($tituloPagina, centro);
-    border: map-get($tituloPagina, borde);
-    color: map-get($tituloPagina, colorPrincipal);
-    margin-top: map-get($tituloPagina, margen);
+    background-color: map-get($textoprincipal,parrafo );
+    text-align: map-get($textoprincipal, centrar);
+    border: map-get($textoprincipal, marco);
+    color: map-get($textoprincipal, colortexto);
+    margin-top: map-get($textoprincipal, marg);
 }

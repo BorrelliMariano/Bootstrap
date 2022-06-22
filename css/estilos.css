@@ -1,4 +1,30 @@
 @charset "UTF-8";
+/*-----------------------MEDIAS-----------------------*/
+/* index */
+@media screen and (max-width: 600px) {
+  #carouselExampleCaptions {
+    margin: 0px; } }
+
+/* Primera Victoria  */
+@media screen and (max-width: 600px) {
+  .texto-montreal {
+    display: flex;
+    align-content: center; } }
+
+/*  TRAYECTORIA */
+@media screen and (max-width: 600px) {
+  .compañero {
+    display: flex;
+    flex-direction: column; }
+  .mclaren-tr {
+    width: 85%; }
+  .china {
+    display: flex;
+    flex-direction: column; }
+  .enganchado {
+    width: 95%; } }
+
+/*-----------------------MEDIAS-----------------------*/
 /*  CONTENIDO  */
 body {
   background-color: #dbdbdb; }
@@ -16,11 +42,10 @@ body {
   from {
     width: 0; } }
 
-.carousel {
-  margin-left: 370px;
-  text-align: center;
-  width: 450px;
-  height: 450px; }
+.slide-index {
+  margin-left: 360px;
+  height: 450px;
+  width: 450px; }
 
 /*  INDEX CSS */
 .texto-index {
@@ -47,10 +72,10 @@ body {
 
 /*MAP GET*/
 .titulo {
-  background-color: yellow;
+  background-color: aquamarine;
   text-align: center;
-  border: 3px solid;
-  color: brown;
+  border: 0px solid;
+  color: black;
   margin-top: 20px; }
 
 * {
