@@ -32,8 +32,9 @@ $BodySecundario: rgb(122, 12, 12);
                         flex-direction: column;
                     }
                     .montreal {
+                        width: 80%;
                         display: flex;
-                        flex-direction: column;
+                        align-content: center;
                     }
                 }
 
@@ -105,14 +106,24 @@ $BodySecundario: rgb(122, 12, 12);
 
 
                     /*  HEPTACAMPEON  */
-                @media screen and (max-width:500px){
+                @media screen and (min-width: 250px) and (max-width:500px){
+                    .turq{
+                        padding: left 0%;
+                        display: flex;
+                        flex-direction: column;
+                        width: 470px;
+                        height: 480px;
+                    }
+                    
                     .thlvsvtt{ 
+                        padding: left 0%;
                         display: flex;
                         flex-direction: column;
                         width: 470px;
                         height: 480px;
                     }
                     .heptacampeon{ 
+                        
                         display: flex;
                         flex-direction: column;
                         width: 480px;
@@ -187,18 +198,18 @@ align-content: center;}
 .turq { 
     width: 80%;
     height: 500px;
-    padding-left: 300px;
+
 }
 .thlvsvtt{
     width: 80%;
     height: 500px;
-    padding-left: 300px;
+
 }
 
 .heptacampeon{
     width: 80%;
     height: 500px;
-    padding-left: 300px;
+
 }
 
 .p-hepta { font-family: Verdana, Geneva, Tahoma, sans-serif;}

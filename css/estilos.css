@@ -18,8 +18,9 @@
     display: flex;
     flex-direction: column; }
   .montreal {
+    width: 80%;
     display: flex;
-    flex-direction: column; } }
+    align-content: center; } }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .texto-pv {
@@ -60,8 +61,15 @@
     flex-direction: column; } }
 
 /*  HEPTACAMPEON  */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  .turq {
+    padding: left 0%;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 480px; }
   .thlvsvtt {
+    padding: left 0%;
     display: flex;
     flex-direction: column;
     width: 470px;
@@ -129,18 +137,15 @@ body {
 /*  EDICIÓN Heptacampeón  */
 .turq {
   width: 80%;
-  height: 500px;
-  padding-left: 300px; }
+  height: 500px; }
 
 .thlvsvtt {
   width: 80%;
-  height: 500px;
-  padding-left: 300px; }
+  height: 500px; }
 
 .heptacampeon {
   width: 80%;
-  height: 500px;
-  padding-left: 300px; }
+  height: 500px; }
 
 .p-hepta {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
