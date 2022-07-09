@@ -1,18 +1,39 @@
 @charset "UTF-8";
 /*-----------------------MEDIAS-----------------------*/
 /* index */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   #carouselExampleCaptions {
     margin: 0px; } }
 
 /* Primera Victoria  */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  .texto-pv {
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
   .texto-montreal {
     display: flex;
-    align-content: center; } }
+    align-content: center; }
+  .montreal-imagen {
+    display: flex;
+    flex-direction: column; }
+  .montreal {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .texto-pv {
+    display: flex;
+    flex-direction: column; }
+  .montreal-imagen {
+    display: flex;
+    flex-direction: column; }
+  .montreal {
+    display: flex;
+    flex-direction: column; } }
 
 /*  TRAYECTORIA */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .compañero {
     display: flex;
     flex-direction: column; }
@@ -23,6 +44,41 @@
     flex-direction: column; }
   .enganchado {
     width: 95%; } }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .compañero {
+    display: flex;
+    flex-direction: column; }
+  .mclaren-tr {
+    display: flex;
+    flex-direction: column; }
+  .china {
+    display: flex;
+    flex-direction: column; }
+  .enganchado {
+    display: flex;
+    flex-direction: column; } }
+
+/*  HEPTACAMPEON  */
+@media screen and (max-width: 500px) {
+  .thlvsvtt {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 480px; }
+  .heptacampeon {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 480px; } }
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .turq {
+    width: 80%; }
+  .thlvsvtt {
+    width: 80%; }
+  .heptacampeon {
+    width: 80%; } }
 
 /*-----------------------MEDIAS-----------------------*/
 /*  CONTENIDO  */
@@ -59,16 +115,35 @@ body {
 .cursiva {
   font-weight: bold; }
 
-.montreal {
-  float: left; }
+.montreal-imagen {
+  display: flex; }
 
-/* EDICION Trayectoria */
+/* EDICIÓN Trayectoria */
 .compañero {
   display: flex;
   align-content: center; }
 
 .china {
   display: flex; }
+
+/*  EDICIÓN Heptacampeón  */
+.turq {
+  width: 80%;
+  height: 500px;
+  padding-left: 300px; }
+
+.thlvsvtt {
+  width: 80%;
+  height: 500px;
+  padding-left: 300px; }
+
+.heptacampeon {
+  width: 80%;
+  height: 500px;
+  padding-left: 300px; }
+
+.p-hepta {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /*MAP GET*/
 .titulo {
